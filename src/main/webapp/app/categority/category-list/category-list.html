@@ -1,0 +1,8 @@
+<div class="ui fluid vertical menu">
+  <span class="item active"><i class="folder icon"></i>分类</span>
+  <a class="item" *ngFor="let category of categories" [href]="category.id">
+    <div class="ui small blue label">{{category.articleSize}}</div>
+    {{category.name}}
+  </a>
+
+</div>

@@ -1,0 +1,111 @@
+body{
+  color: #565a5f;
+  background: #f5f8f9;
+  font: 16px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  .ui.grid > [class*="five wide"].column,.ui.menu:not(.vertical) .right.item, .ui.menu:not(.vertical) .right.menu{
+    display: none;
+  }
+
+  .ui.grid > [class*="eleven wide"].column{
+    width: 100% !important;
+  }
+}
+.article-detail{
+  min-height: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.28571429rem;
+  box-shadow: 0px 2px 5px 0px #D4D4D5, 0px 0px 0px 1px #D4D4D5;
+  -webkit-transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+  transition: box-shadow 0.1s ease, transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+.article-title{
+  text-align: center;
+}
+.ui.container.grid.centered{
+  margin-top: 1rem;
+}
+
+.ui.container.grid.centered{
+  height: 100%;
+}
+.ui.menu {
+  font-size: 1.2rem;
+}
+.ui.secondary.pointing.menu.nav{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.ui.items > .item > .content > .header,.ui.button{
+  font-weight: normal;
+}
+.ui.cards > .card, .ui.card{
+  min-width: 150px;
+  width: auto;
+}
+.ui.cards > .card > .content > .header:not(.ui), .ui.card > .content > .header:not(.ui){
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+.ui.cards > .card .meta, .ui.card .meta{
+  margin-bottom: 0.6rem;
+}
+.ui.card.my-message  .header>h2{
+  margin-top: 2rem;
+}
+
+.ui.card > .content > .image {
+  display: block;
+  margin: 10px auto 20px;
+  width: 128px;
+  height: 128px;
+}
+.ui.card > .content > .image > img{
+  margin: 25px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.ui.card.my-message{
+  text-align: center;
+}
+
+
+.ui.vertical.menu{
+  width: 100%;
+}
+.extra.content.feed{
+  font-size: 1.6rem;
+}
+.ui.centered.page{
+  text-align: center;
+  width: 100%;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid #eceff2;
+  color: #565a5f;
+  font-size: 18px;
+  text-align: center;
+}
+.outer{
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

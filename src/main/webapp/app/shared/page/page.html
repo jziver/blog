@@ -1,0 +1,8 @@
+<div class="ui centered page">
+  <div class="ui pagination menu">
+    <a class="item" *ngFor="let item of pageNum" (click)="toPage(item)  " [ngClass]="{active: item == current_page,disabled:item == '...'}">
+      {{item}}
+    </a>
+
+  </div>
+</div>

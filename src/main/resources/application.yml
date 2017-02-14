@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8001
+management:
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false
+async:
+  corePoolSize: 2
+  maxPoolSize: 50
+  queueCapacity: 10000
